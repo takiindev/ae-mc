@@ -1,0 +1,111 @@
+[07:50:41] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Microsoft Microsoft-11369942) on Linux 6.8.0-1030-azure (amd64)
+[07:50:41] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-39-main@616a879 (2025-08-18T02:25:55Z) for Minecraft 1.21.8
+[07:50:42] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:50:42] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[07:50:42] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - playit-gg (0.1.4)
+[07:50:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:50:53] [ServerMain/INFO]: Loaded 1407 recipes
+[07:50:53] [ServerMain/INFO]: Loaded 1520 advancements
+[07:50:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[07:50:54] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 626.7ms
+[07:50:54] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[07:50:54] [Server thread/INFO]: Loading properties
+[07:50:54] [Server thread/INFO]: This server is running Paper version 1.21.8-39-main@616a879 (2025-08-18T02:25:55Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[07:50:54] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:50:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:50:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:50:56] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[07:50:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:50:57] [Server thread/INFO]: Default game type: SURVIVAL
+[07:50:57] [Server thread/INFO]: Generating keypair
+[07:50:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:50:57] [Server thread/INFO]: Using epoll channel type
+[07:50:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:50:57] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:50:57] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[07:50:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:50:57] [Server thread/INFO]: Preparing level "world"
+[07:50:58] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:50:59] [Server thread/INFO]: Preparing spawn area: 0%
+[07:51:00] [Server thread/INFO]: Preparing spawn area: 0%
+[07:51:00] [Server thread/INFO]: Preparing spawn area: 0%
+[07:51:00] [Server thread/INFO]: Preparing spawn area: 0%
+[07:51:00] [Server thread/INFO]: Time elapsed: 1574 ms
+[07:51:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:51:00] [Server thread/INFO]: Preparing spawn area: 0%
+[07:51:00] [Server thread/INFO]: Time elapsed: 413 ms
+[07:51:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:51:00] [Server thread/INFO]: Preparing spawn area: 0%
+[07:51:01] [Server thread/INFO]: Time elapsed: 293 ms
+[07:51:01] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[07:51:01] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[07:51:01] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[07:51:01] [Server thread/INFO]: [spark] Starting background profiler...
+[07:51:02] [Server thread/INFO]: Done preparing level "world" (4.097s)
+[07:51:02] [Server thread/INFO]: Running delayed init tasks
+[07:51:02] [Server thread/INFO]: Done (21.680s)! For help, type "help"
+[07:51:03] [Thread-6/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: quote-denial.joinmc.link
+[07:51:03] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[07:51:03] [Thread-6/INFO]: playit.gg: WARNING:  plugin is running with a guest account
+[07:51:03] [Thread-6/INFO]: playit.gg: see server console for setup URL
+[07:51:03] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/00010000000000000000001793e368b00a67010000000002a3ecb49abc16eb6b5609f5f7b741aba88ab83e731b3dc56399031af24df3ea6c
+[07:51:03] [Thread-6/INFO]: playit.gg: tunnel setup
+[07:51:03] [Thread-6/INFO]: playit.gg: quote-denial.joinmc.link
+[07:51:03] [Thread-6/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:848:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[07:51:04] [Thread-6/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[07:51:08] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=113.185.94.178:31009, claimAddress=209.25.142.2:42758, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 113, -71, 94, -78, 121, 33, -106, 76, 75, -45, -89, 6, 104, -80, 10, 108, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -69, -45, -89, 6, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -91, 9, -113, 3, 7, -66, 102, 45, -122, -17, -55, 80, 95, -62, 40, -43], tunnelServerId=1, dataCenterId=18}
+[07:51:08] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:51:08] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:42758 to claim client
+[07:51:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:51:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:51:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:51:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[07:51:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[07:51:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:51:08] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:51:49] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=113.185.94.178:17791, claimAddress=209.25.142.2:42758, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 113, -71, 94, -78, 69, 127, 45, -6, 24, -114, -89, 6, 104, -80, 10, -107, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, 104, -114, -89, 6, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 123, 79, 40, -20, 35, -22, -115, 73, 123, -13, 26, -22, 78, 19, -35, 34], tunnelServerId=1, dataCenterId=18}
+[07:51:49] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:51:49] [Thread-6/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.142.2:42758 to claim client
+[07:51:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:51:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:51:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:51:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[07:51:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[07:51:49] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:51:49] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:51:55] [Server thread/INFO]: Stopping the server
+[07:51:55] [Server thread/INFO]: Stopping server
+[07:51:55] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[07:51:55] [Server thread/INFO]: Saving players
+[07:51:55] [Server thread/INFO]: Saving worlds
+[07:51:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:51:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[07:51:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[07:51:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[07:51:55] [Thread-6/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[07:51:55] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.36s
+[07:51:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[07:51:55] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[07:51:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[07:51:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[07:51:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[07:51:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[07:51:56] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.15s
+[07:51:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[07:51:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[07:51:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[07:51:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[07:51:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[07:51:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[07:51:56] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.09s
+[07:51:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[07:51:56] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[07:51:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:51:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:51:56] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:51:56] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:51:56] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[07:51:56] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[07:51:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:51:56] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
