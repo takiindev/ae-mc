@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757747162902
+  login: 1757747128760
+money: '0'
+last-account-name: kiet
+lastlocation:
+  world: 240a6924-e026-4049-9b88-8d825f801274
+  world-name: world
+  x: 615.2308221568356
+  y: 80.0
+  z: 671.1967223444528
+  yaw: -35.250267028808594
+  pitch: 11.849937438964844
+logoutlocation:
+  world: 240a6924-e026-4049-9b88-8d825f801274
+  world-name: world
+  x: 676.739939231914
+  y: 77.0
+  z: 854.61808201718
+  yaw: -60.299041748046875
+  pitch: 7.050008296966553

@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757840367011
+  login: 1757840359147
+money: '0'
+last-account-name: Takiinn
+logoutlocation:
+  world: 240a6924-e026-4049-9b88-8d825f801274
+  world-name: world
+  x: 10015.119377559548
+  y: 57.92863835428112
+  z: 10005.98169622467
+  yaw: -86.1001205444336
+  pitch: 90.0

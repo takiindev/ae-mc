@@ -1,0 +1,47 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1757844156751
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757844211398
+  login: 1757843612675
+money: '0'
+last-account-name: pandaT
+logoutlocation:
+  world: 240a6924-e026-4049-9b88-8d825f801274
+  world-name: world
+  x: 766.4822388417393
+  y: 86.0
+  z: 869.4226374891604
+  yaw: 29.383573532104492
+  pitch: 26.11258316040039
+lastlocation:
+  world: 240a6924-e026-4049-9b88-8d825f801274
+  world-name: world
+  x: 636.4379549849107
+  y: 74.0
+  z: 949.8188427795702
+  yaw: -143.38026428222656
+  pitch: 17.11605453491211
+homes:
+  home:
+    world: 240a6924-e026-4049-9b88-8d825f801274
+    world-name: world
+    x: 768.6727806308063
+    y: 86.0
+    z: 870.137897094157
+    yaw: -26.519235610961914
+    pitch: 36.138607025146484

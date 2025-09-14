@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757844217248
+  login: 1757842930367
+money: '0'
+last-account-name: hoangktuong
+logoutlocation:
+  world: 240a6924-e026-4049-9b88-8d825f801274
+  world-name: world
+  x: 752.1897813130091
+  y: 88.0
+  z: 895.05650041155
+  yaw: 86.55718994140625
+  pitch: 26.581104278564453
+lastlocation:
+  world: 240a6924-e026-4049-9b88-8d825f801274
+  world-name: world
+  x: 660.3682961353719
+  y: 71.0
+  z: 993.6738775865557
+  yaw: 174.30120849609375
+  pitch: 9.300167083740234
