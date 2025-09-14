@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1757869645412
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1757870052858
+  login: 1757867005455
+money: '0'
+last-account-name: Tvan
+lastlocation:
+  world: 240a6924-e026-4049-9b88-8d825f801274
+  world-name: world
+  x: 10004.334131560394
+  y: 63.0
+  z: 9917.715224517548
+  yaw: 138.90016174316406
+  pitch: 10.950013160705566
+logoutlocation:
+  world: 240a6924-e026-4049-9b88-8d825f801274
+  world-name: world
+  x: 9652.332117475822
+  y: 71.0
+  z: 9932.814535523474
+  yaw: 27.299991607666016
+  pitch: -4.050002098083496
