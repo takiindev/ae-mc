@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1758084331543
-  login: 1758082464193
+  logout: 1758086710942
+  login: 1758086396546
 money: '0'
 last-account-name: Takiin
 logoutlocation:
   world: 240a6924-e026-4049-9b88-8d825f801274
   world-name: world
-  x: 391.5
-  y: 64.0
-  z: 1050.5
-  yaw: -30.75
-  pitch: 9.600000381469727
+  x: 365.8549184678435
+  y: 61.5625
+  z: 1046.0370856067248
+  yaw: 21.14990234375
+  pitch: -18.600048065185547
 lastlocation:
   world: 240a6924-e026-4049-9b88-8d825f801274
   world-name: world

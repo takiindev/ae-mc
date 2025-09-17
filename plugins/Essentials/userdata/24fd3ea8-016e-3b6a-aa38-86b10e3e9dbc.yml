@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1757870084180
-  login: 1757869706918
+  logout: 1758086523466
+  login: 1758086488369
 money: '0'
 last-account-name: kiet
 lastlocation:
@@ -31,11 +31,11 @@ lastlocation:
 logoutlocation:
   world: 240a6924-e026-4049-9b88-8d825f801274
   world-name: world
-  x: 390.9788824156207
-  y: 64.5
-  z: 1103.8032333818635
-  yaw: -19.34966278076172
-  pitch: 12.750054359436035
+  x: 341.8836645980222
+  y: 63.0
+  z: 1079.648683119477
+  yaw: -97.4998779296875
+  pitch: 22.200103759765625
 homes:
   home:
     world: 240a6924-e026-4049-9b88-8d825f801274
