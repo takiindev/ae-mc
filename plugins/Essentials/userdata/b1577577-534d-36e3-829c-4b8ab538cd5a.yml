@@ -11,31 +11,31 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1758101507860
+  lastteleport: 1758210023998
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1758206170534
-  login: 1758206167048
+  logout: 1758210521652
+  login: 1758209101179
 money: '0'
 last-account-name: Takiin
 logoutlocation:
   world: 240a6924-e026-4049-9b88-8d825f801274
   world-name: world
-  x: 361.2197407084475
-  y: 64.0
-  z: 1046.74019866819
-  yaw: -107.55073547363281
-  pitch: 82.49996185302734
+  x: 393.69999998807907
+  y: 64.5625
+  z: 1044.699999988079
+  yaw: 118.34942626953125
+  pitch: 28.049989700317383
 lastlocation:
   world: 240a6924-e026-4049-9b88-8d825f801274
   world-name: world
-  x: 364.6802029350436
-  y: 61.0
-  z: 1046.3478780511646
-  yaw: 177.29957580566406
-  pitch: -22.35004997253418
+  x: 359.5
+  y: 60.9375
+  z: 1047.5
+  yaw: -176.67759704589844
+  pitch: 36.89996337890625
 homes:
   home:
     world: 240a6924-e026-4049-9b88-8d825f801274

@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "9a63b82c-7e6e-339d-9122-2f4b9fdf0a41",
+    "name": "VAGaming",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "b7a53ec8-51cd-3b3b-8913-e329bd4bc2de",
     "name": "NgoBao",
     "level": 4,
