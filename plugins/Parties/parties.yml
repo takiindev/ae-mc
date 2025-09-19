@@ -364,7 +364,7 @@ additional:
   # This will enable "/party tag"
   # If 'must-be-unique' is enabled, tags will identify a single party
   tag:
-    enable: false
+    enable: true
     must-be-unique: true
     minimum-length: 3
     maximum-length: 10
@@ -376,11 +376,11 @@ additional:
   teleport:
     enable: false
     delay: 0
-    cooldown: 60
+    cooldown: 20
     accept-request:
       # Members will be teleported only after accepting with /party accept/deny
       # Time in seconds
-      enable: false
+      enable: true
       time: 20
     cancel:
       hit: true

@@ -134,19 +134,21 @@ main-commands:
 
   info:
     content-own-party:
-    - "&b============ &l%party%'s Info &r&b============"
-    - "&b&lDescription&7: %desc%"
-    - "&bLeader&7: %list_rank_leader%"
-    - "&bMods&7: %list_rank_moderator%"
-    - "&bMembers&7: %list_rank_member%"
-    - "&bOnline players&7: %members_online_total%"
+    - "&e&l============ &l%party%'s Info &r&e&l============"
+    - "&e&l&lDescription&7: %desc%"
+    - "&e&lLevel&7: &a&l%experience_level% "
+    - "&e&lOnline players&7:  &a&l%members_online_total%"
+    - "&e&lLeader&7:  &c&l%list_rank_leader%"
+    - "&e&lMods&7:  &a%list_rank_moderator%"
+    - "&e&lMembers&7:  &a%list_rank_member%"
     content-other-party:
-    - "&b============ &l%party%'s Info &r&b============"
-    - "&b&lDescription&7: %desc%"
-    - "&bLeader&7: %list_rank_leader%"
-    - "&bMods&7: %list_rank_moderator%"
-    - "&bMembers&7: %list_rank_member%"
-    - "&bOnline players&7: %members_online_total%"
+    - "&e&l============ &l%party%'s Info &r&e&l============"
+    - "&e&l&lDescription&7: %desc%"
+    - "&e&lLevel&7: &a&l%experience_level% "
+    - "&e&lOnline players&7:  &a&l%members_online_total%"
+    - "&e&lLeader&7:  &c&l%list_rank_leader%"
+    - "&e&lMods&7:  &a%list_rank_moderator%"
+    - "&e&lMembers&7:  &a%list_rank_member%"
 
   invite:
     sent: "&bYou invited %player% in your party"
