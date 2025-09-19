@@ -1,0 +1,29 @@
+--2025-09-19 11:14:03--  https://www.spigotmc.org/resources/veinminer.12038/download?version=58789
+Resolving www.spigotmc.org (www.spigotmc.org)... 104.24.14.81, 104.24.15.81, 2606:4700:20::6818:f51, ...
+Connecting to www.spigotmc.org (www.spigotmc.org)|104.24.14.81|:443... connected.
+HTTP request sent, awaiting response... 403 Forbidden
+2025-09-19 11:14:03 ERROR 403: Forbidden.
+
+--2025-09-19 11:14:03--  http://1/
+Resolving 1 (1)... 0.0.0.1
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:16:17--  (try: 2)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:18:33--  (try: 3)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:20:49--  (try: 4)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:23:09--  (try: 5)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:25:30--  (try: 6)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... 
