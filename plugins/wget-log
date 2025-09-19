@@ -26,4 +26,32 @@ Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
 Retrying.
 
 --2025-09-19 11:25:30--  (try: 6)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:27:50--  (try: 7)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:30:10--  (try: 8)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:32:34--  (try: 9)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:34:59--  (try:10)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:37:23--  (try:11)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:39:47--  (try:12)  http://1/
+Connecting to 1 (1)|0.0.0.1|:80... failed: Connection timed out.
+Retrying.
+
+--2025-09-19 11:42:10--  (try:13)  http://1/
 Connecting to 1 (1)|0.0.0.1|:80... 
