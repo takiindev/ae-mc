@@ -135,11 +135,11 @@ additional:
   # [Exp system]
   # Full documentation here: https://alessiodp.com/docs/parties/explevels
   exp-system:
-    enable: false
+    enable: true
     # Modes: progressive, fixed
     mode: progressive
     # Get experience from dead vanilla mobs
-    earn-exp-from-mobs: false
+    earn-exp-from-mobs: true
 
     # [Progressive mode]
     # Make infinite levels with a progressive multiplier
@@ -148,7 +148,7 @@ additional:
       # Special tags:
       # => %previous%: Previous level experience
       start-level-experience: 50
-      level-experience: "%previous% * 2"
+      level-experience: "%previous% * 1.2"
       # This is a special option that prevents loops in calculation
       # Set this on false if you know what you are doing
       safe-calculation: true
@@ -180,8 +180,8 @@ additional:
   # => perform-commands:              Perform commands after a specific delay (in milliseconds)
   follow:
     enable: false
-    toggle-command: false
-    delay: 0
+    toggle-command: true
+    delay: 100
     teleport-to-the-same-location: true
     timeout-portal: 5000
     perform-commands:

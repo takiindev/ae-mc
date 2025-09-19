@@ -13,9 +13,9 @@
 general:
   members:
     # Limit the number of party members (-1 is unlimited)
-    limit: -1
+    limit: 4
     # If the leader of a party left, change the leader instead of disbanding
-    on-party-leave-change-leader: false
+    on-party-leave-change-leader: true
     # If you kick players on leave, you should enable this option
     #   to prevent ghost parties
     disband-parties-on-disable: false
@@ -31,7 +31,7 @@ general:
   broadcast:
     titles:
       # Send a title message
-      enable: false
+      enable:  
       # Send the normal message too
       send-normal-message: true
       # Times of the title in milliseconds
@@ -63,7 +63,7 @@ general:
       allow-in-create: true
 
   # Show messages upon login and logout of party-mates
-  join-leave-messages: false
+  join-leave-messages: true
 
   invite:
     # Invite timeout in seconds
@@ -88,7 +88,7 @@ general:
 
   chat:
     # Allow sending messages with color codes (&1, &2, etc..)
-    allow-colors: false
+    allow-colors: true
     # Enable "/party chat" command to toggle party chat
     toggle-command: true
     # Set a cooldown in seconds
@@ -99,7 +99,7 @@ general:
     # Enable a chat prefix to directly send the message into the party chat
     # For example: "@this is a party message"
     direct:
-      enable: false
+      enable: true
       prefix: "@"
 
   sounds:
@@ -140,7 +140,7 @@ ranks:
   moderator:
     level: 10
     name: "Moderator"
-    chat: "&cModerator"
+    chat: "&eModerator"
     inheritence: member
     permissions:
     - party.ask.accept
@@ -150,7 +150,7 @@ ranks:
   leader:
     level: 20
     name: "Leader"
-    chat: "&4&lLeader"
+    chat: "&6&lLeader"
     permissions:
     - '*'
 
@@ -239,10 +239,10 @@ additional:
   # 'prevent-damage-with-magic' prevents friendly fire damage of Magic plugin
   friendly-fire:
     enable: true
-    type: global
+    type: command
     warn-players-on-fight: true
     prevent-fish-hook: false
-    prevent-damage-with-magic: false
+    prevent-damage-with-magic: true
 
   # [Home system]
   # Allow the creation of party homes

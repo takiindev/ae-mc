@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "55f43140-6a74-3a76-802b-004e89eb0f6d",
+    "name": "erica_2303",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "9a63b82c-7e6e-339d-9122-2f4b9fdf0a41",
     "name": "VAGaming",
     "level": 4,

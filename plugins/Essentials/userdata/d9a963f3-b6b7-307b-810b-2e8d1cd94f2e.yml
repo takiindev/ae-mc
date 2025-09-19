@@ -11,13 +11,13 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1758285130661
+  lastteleport: 1758295233937
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
   logout: 1758288335338
-  login: 1758288311551
+  login: 1758290163482
 money: '0'
 last-account-name: pandaT
 logoutlocation:
@@ -31,11 +31,11 @@ logoutlocation:
 lastlocation:
   world: 240a6924-e026-4049-9b88-8d825f801274
   world-name: world
-  x: 465.62771154920597
-  y: 95.86835973890567
-  z: 872.0740705769701
-  yaw: 75.46764373779297
-  pitch: 37.920555114746094
+  x: 344.52889521501083
+  y: 62.0
+  z: 1145.707624807028
+  yaw: -94.9310073852539
+  pitch: 17.44591522216797
 homes:
   home:
     world: 240a6924-e026-4049-9b88-8d825f801274
