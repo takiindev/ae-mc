@@ -11,38 +11,46 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1758351051741
+  lastteleport: 1758354634430
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1758351249427
-  login: 1758347840166
+  logout: 1758354993199
+  login: 1758354287836
 money: '0'
 last-account-name: Takiin
 logoutlocation:
   world: 240a6924-e026-4049-9b88-8d825f801274
   world-name: world
-  x: 9832.699999988079
-  y: -18.0
-  z: 9925.940311074184
-  yaw: -89.08084106445312
-  pitch: 30.156452178955078
+  x: 9796.814577042584
+  y: 6.0
+  z: 9874.17528100944
+  yaw: 136.42181396484375
+  pitch: 66.61924743652344
 lastlocation:
   world: 240a6924-e026-4049-9b88-8d825f801274
   world-name: world
-  x: 403.5
-  y: 64.0
-  z: 1121.5
-  yaw: -2.5044780613825424E-6
-  pitch: 0.0
+  x: 9.16923023166791
+  y: -32.0
+  z: 842.7830049795633
+  yaw: 47.216670989990234
+  pitch: 18.98129653930664
 homes:
   home:
     world: 240a6924-e026-4049-9b88-8d825f801274
     world-name: world
-    x: 426.63422721465815
-    y: 63.0
-    z: 1130.6739751698926
-    yaw: 146.70066833496094
-    pitch: 11.250054359436035
+    x: -7554015.677702256
+    y: 37.0
+    z: -2.6133890261704676E7
+    yaw: -89.75079345703125
+    pitch: 22.64996910095215
+  home2:
+    world: 240a6924-e026-4049-9b88-8d825f801274
+    world-name: world
+    x: 9739.749595781974
+    y: -23.0
+    z: 9991.086553593723
+    yaw: -84.73294067382812
+    pitch: -35.84996032714844
 nickname: §6§lTakiin
