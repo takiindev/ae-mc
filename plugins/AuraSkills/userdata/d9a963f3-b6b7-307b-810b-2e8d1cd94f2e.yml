@@ -2,48 +2,44 @@ uuid: d9a963f3-b6b7-307b-810b-2e8d1cd94f2e
 skills:
   auraskills/mining:
     level: 3
-    xp: 636.7100000000157
+    xp: 638.3600000000159
   auraskills/alchemy:
     level: 0
     xp: 0.0
   auraskills/excavation:
     level: 2
-    xp: 82.58999999999982
+    xp: 203.8099999999998
   auraskills/enchanting:
-    level: 7
-    xp: 364.5999999999999
+    level: 8
+    xp: 3954.1999999999985
   auraskills/foraging:
-    level: 0
-    xp: 0.0
-  auraskills/fighting:
     level: 6
-    xp: 3522.299999999977
+    xp: 2516.879999999999
+  auraskills/fighting:
+    level: 8
+    xp: 5232.299999999952
   auraskills/agility:
-    level: 2
-    xp: 293.29904000000016
+    level: 3
+    xp: 160.87614000000013
   auraskills/farming:
-    level: 0
-    xp: 0.6
+    level: 3
+    xp: 795.2999999999976
   auraskills/fishing:
     level: 0
     xp: 0.0
   auraskills/archery:
-    level: 1
-    xp: 34.0
+    level: 3
+    xp: 70.6999999999996
   auraskills/defense:
-    level: 1
-    xp: 87.2403085231781
-mana: 36.0
+    level: 2
+    xp: 423.05754833221454
+mana: 40.0
 action_bar:
   idle: true
-stat_modifiers:
-  '0':
-    name: AbilityModifier-EnchantedStrength
-    stat: auraskills/strength
-    operation: ADD
-    value: 2.5
 ability_data:
-  auraskills/xp_convert:
-    xp: 22.792528294603112
   auraskills/first_strike:
-    counter: 15
+    counter: 32
+  auraskills/xp_convert:
+    xp: 21.93686810364074
+  auraskills/lightning_blade:
+    cooldown: 542

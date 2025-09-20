@@ -1,403 +1,882 @@
-[07:40:43] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Microsoft Microsoft-11369942) on Linux 6.8.0-1030-azure (amd64)
-[07:40:43] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-39-main@616a879 (2025-08-18T02:25:55Z) for Minecraft 1.21.8
-[07:40:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[07:40:47] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
-[07:40:47] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+[14:18:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-LTS; Microsoft Microsoft-11369942) on Linux 6.8.0-1030-azure (amd64)
+[14:18:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-39-main@616a879 (2025-08-18T02:25:55Z) for Minecraft 1.21.8
+[14:18:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:18:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[14:18:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
  - AuraSkills (2.3.7), ChatItem (2.6.2), Clumps (5.0), Essentials (2.21.2), Parties (3.2.9), PlaceholderAPI (2.11.6), SilkSpawners_v2 (2.3.2), SkinsRestorer (15.7.10), VeinMiner (2.3.0), ViaBackwards (5.4.2), ViaVersion (5.4.2), playit-gg (0.1.4)
-[07:40:55] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:40:58] [ServerMain/INFO]: Loaded 1407 recipes
-[07:40:58] [ServerMain/INFO]: Loaded 1520 advancements
-[07:40:59] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[07:40:59] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 767.2ms
-[07:40:59] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[07:40:59] [Server thread/INFO]: Loading properties
-[07:40:59] [Server thread/INFO]: This server is running Paper version 1.21.8-39-main@616a879 (2025-08-18T02:25:55Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[07:41:00] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[07:41:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:41:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:41:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[07:41:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[07:41:03] [Server thread/INFO]: Default game type: SURVIVAL
-[07:41:03] [Server thread/INFO]: Generating keypair
-[07:41:03] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:41:03] [Server thread/INFO]: Using epoll channel type
-[07:41:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[07:41:03] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[07:41:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
-[07:41:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
-[07:41:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[07:41:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[07:41:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[07:41:07] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[07:41:08] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[07:41:08] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
-[07:41:08] [Server thread/INFO]: [SilkSpawners_v2] Loading server plugin SilkSpawners_v2 v2.3.2
-[07:41:08] [Server thread/INFO]: [ChatItem] Loading server plugin ChatItem v2.6.2
-[07:41:08] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[07:41:08] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.3.0
-[07:41:08] [Server thread/INFO]: [Parties] Loading server plugin Parties v3.2.9
-[07:41:08] [Server thread/INFO]: [Parties] Loading libraries of Parties v3.2.9, this may take a while
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for jar-relocator
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for asm
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for asm-commons
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for gson
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-core
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for geantyref
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for caffeine
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-stringtemplate4
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for ST4
-[07:41:08] [Server thread/INFO]: [Parties] Verifying checksum for antlr-runtime
-[07:41:09] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-sqlobject
-[07:41:09] [Server thread/INFO]: [Parties] Verifying checksum for slf4j-api
-[07:41:09] [Server thread/INFO]: [Parties] Verifying checksum for slf4j-simple
-[07:41:09] [Server thread/INFO]: [Parties] Verifying checksum for HikariCP
-[07:41:09] [Server thread/INFO]: [Parties] Verifying checksum for mariadb-java-client
-[07:41:09] [Server thread/INFO]: [Parties] Verifying checksum for mysql-connector-j
-[07:41:09] [Server thread/INFO]: [Parties] Verifying checksum for postgresql
-[07:41:09] [Server thread/INFO]: [Parties] Verifying checksum for h2
-[07:41:09] [Server thread/INFO]: [Parties] Verifying checksum for exp4j
-[07:41:09] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.7
-[07:41:09] [Server thread/INFO]: [Clumps] Loading server plugin Clumps v5.0
-[07:41:09] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[07:41:09] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
-[07:41:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:41:09] [Server thread/INFO]: [Clumps] Enabling Clumps v5.0
-[07:41:09] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
-[07:41:11] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
-[07:41:11] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[07:41:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
-[07:41:11] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[07:41:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:41:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:41:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:41:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:41:12] [Server thread/INFO]: Preparing level "world"
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[07:41:12] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[07:41:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:41:14] [Server thread/INFO]: Preparing spawn area: 0%
-[07:41:14] [Server thread/INFO]: Preparing spawn area: 0%
-[07:41:14] [Server thread/INFO]: Preparing spawn area: 2%
-[07:41:14] [Server thread/INFO]: Preparing spawn area: 4%
-[07:41:15] [Server thread/INFO]: Time elapsed: 1838 ms
-[07:41:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[07:41:15] [Server thread/INFO]: Preparing spawn area: 0%
-[07:41:16] [Server thread/INFO]: Preparing spawn area: 0%
-[07:41:16] [Server thread/INFO]: Preparing spawn area: 0%
-[07:41:16] [Server thread/INFO]: Preparing spawn area: 0%
-[07:41:16] [Server thread/INFO]: Time elapsed: 1715 ms
-[07:41:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[07:41:16] [Server thread/INFO]: Preparing spawn area: 0%
-[07:41:16] [Server thread/INFO]: Time elapsed: 234 ms
-[07:41:16] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
-[07:41:17] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
-[07:41:17] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[07:41:17] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[07:41:17] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
-[07:41:17] [Server thread/INFO]: [SilkSpawners_v2] Enabling SilkSpawners_v2 v2.3.2
-[07:41:17] [Server thread/INFO]: [SilkSpawners] Loading configuration...
-[07:41:17] [Server thread/INFO]: [SilkSpawners] Configuration is up to date
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting SilkSpawners v2.3.2
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading server platform
-[07:41:17] [Thread-10/INFO]: [SilkSpawners] [INFO]: Checking for updates
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Initialized plugin for bukkit server
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading Cross-Version support
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Loaded support for version 1.21.8
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading locale file
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting bStats integration
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering listeners
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering commands
-[07:41:17] [Server thread/INFO]: [SilkSpawners] [INFO]: Started SilkSpawners v2.3.2
-[07:41:17] [Server thread/INFO]: [ChatItem] Enabling ChatItem v2.6.2
-[07:41:17] [Server thread/INFO]: [ChatItem] Detected server version: v1_21 (Platform: PaperMC)
-[07:41:17] [Server thread/INFO]: [ChatItem] Loading own packet system.
-[07:41:17] [Server thread/INFO]: [ChatItem] Use ComponentBuilder's method.
-[07:41:17] [Server thread/INFO]: [ChatItem] Manager automatically chosen: PacketEditing (packet), ChatListener (chat), Paper (paper), Own Formatter (ownformatter)
-[07:41:17] [Server thread/INFO]: [ChatItem] Load PlaceholderAPI support.
-[07:41:18] [Thread-10/INFO]: [SilkSpawners] [WARN]: Update available! Download at https://www.spigotmc.org/resources/silkspawners.60063/ 
+[14:18:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:18:37] [ServerMain/INFO]: Loaded 1407 recipes
+[14:18:37] [ServerMain/INFO]: Loaded 1520 advancements
+[14:18:37] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[14:18:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 679.4ms
+[14:18:38] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[14:18:38] [Server thread/INFO]: Loading properties
+[14:18:38] [Server thread/INFO]: This server is running Paper version 1.21.8-39-main@616a879 (2025-08-18T02:25:55Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[14:18:39] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:18:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:18:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:18:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[14:18:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[14:18:41] [Server thread/INFO]: Default game type: SURVIVAL
+[14:18:41] [Server thread/INFO]: Generating keypair
+[14:18:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:18:41] [Server thread/INFO]: Using epoll channel type
+[14:18:41] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:18:41] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[14:18:43] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.4.2
+[14:18:43] [Server thread/INFO]: [ViaVersion] ViaVersion 5.4.2 is now loaded. Registering protocol transformers and injecting...
+[14:18:43] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[14:18:44] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[14:18:44] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[14:18:44] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[14:18:46] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[14:18:46] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.4.2
+[14:18:46] [Server thread/INFO]: [SilkSpawners_v2] Loading server plugin SilkSpawners_v2 v2.3.2
+[14:18:46] [Server thread/INFO]: [ChatItem] Loading server plugin ChatItem v2.6.2
+[14:18:46] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[14:18:46] [Server thread/INFO]: [VeinMiner] Loading server plugin VeinMiner v2.3.0
+[14:18:46] [Server thread/INFO]: [Parties] Loading server plugin Parties v3.2.9
+[14:18:46] [Server thread/INFO]: [Parties] Loading libraries of Parties v3.2.9, this may take a while
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for jar-relocator
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for asm
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for asm-commons
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for gson
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-core
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for geantyref
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for caffeine
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-stringtemplate4
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for ST4
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for antlr-runtime
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for jdbi3-sqlobject
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for slf4j-api
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for slf4j-simple
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for HikariCP
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for mariadb-java-client
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for mysql-connector-j
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for postgresql
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for h2
+[14:18:46] [Server thread/INFO]: [Parties] Verifying checksum for exp4j
+[14:18:46] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.7
+[14:18:46] [Server thread/INFO]: [Clumps] Loading server plugin Clumps v5.0
+[14:18:46] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[14:18:46] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.10
+[14:18:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:18:46] [Server thread/INFO]: [Clumps] Enabling Clumps v5.0
+[14:18:46] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.10
+[14:18:47] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[14:18:48] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:18:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.7.10]
+[14:18:48] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[14:18:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:18:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:18:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:18:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:18:48] [Server thread/INFO]: Preparing level "world"
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.10
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 19ef760
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:18:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:18:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:18:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:50] [Server thread/INFO]: Preparing spawn area: 2%
+[14:18:50] [Server thread/INFO]: Time elapsed: 1177 ms
+[14:18:50] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:18:50] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:51] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:51] [Server thread/INFO]: Time elapsed: 967 ms
+[14:18:51] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:18:51] [Server thread/INFO]: Preparing spawn area: 0%
+[14:18:52] [Server thread/INFO]: Time elapsed: 294 ms
+[14:18:52] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.4.2
+[14:18:52] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[14:18:52] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[14:18:52] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:18:52] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.4.2
+[14:18:52] [Server thread/INFO]: [SilkSpawners_v2] Enabling SilkSpawners_v2 v2.3.2
+[14:18:52] [Server thread/INFO]: [SilkSpawners] Loading configuration...
+[14:18:52] [Server thread/INFO]: [SilkSpawners] Configuration is up to date
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting SilkSpawners v2.3.2
+[14:18:52] [Thread-10/INFO]: [SilkSpawners] [INFO]: Checking for updates
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading server platform
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Initialized plugin for bukkit server
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading Cross-Version support
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Loaded support for version 1.21.8
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Loading locale file
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Starting bStats integration
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering listeners
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Registering commands
+[14:18:52] [Server thread/INFO]: [SilkSpawners] [INFO]: Started SilkSpawners v2.3.2
+[14:18:52] [Server thread/INFO]: [ChatItem] Enabling ChatItem v2.6.2
+[14:18:52] [Server thread/INFO]: [ChatItem] Detected server version: v1_21 (Platform: PaperMC)
+[14:18:52] [Server thread/INFO]: [ChatItem] Loading own packet system.
+[14:18:53] [Server thread/INFO]: [ChatItem] Use ComponentBuilder's method.
+[14:18:53] [Server thread/INFO]: [ChatItem] Manager automatically chosen: PacketEditing (packet), ChatListener (chat), Paper (paper), Own Formatter (ownformatter)
+[14:18:53] [Server thread/INFO]: [ChatItem] Load PlaceholderAPI support.
+[14:18:53] [Thread-10/INFO]: [SilkSpawners] [WARN]: Update available! Download at https://www.spigotmc.org/resources/silkspawners.60063/ 
 Installed version: v2.3.2
 Latest version: v2.3.3
-[07:41:18] [Server thread/INFO]: [ChatItem] Loaded translation for en_gb.
-[07:41:18] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[07:41:18] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[07:41:18] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[07:41:18] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.3.0
-[07:41:19] [Server thread/INFO]: [VeinMiner] Using "sqlite" for persistent data storage.
-[07:41:19] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
-[07:41:19] [Server thread/INFO]: [VeinMiner] Added 14 aliases.
-[07:41:19] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 28 unique blocks.
-[07:41:19] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: quote-denial.gl.joinmc.link
-[07:41:19] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[07:41:19] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 12 unique blocks.
-[07:41:19] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 14 unique blocks.
-[07:41:19] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 4 unique blocks.
-[07:41:19] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
-[07:41:19] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
-[07:41:19] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
-[07:41:19] [Server thread/INFO]: [VeinMiner] Performing an update check!
-[07:41:19] [Server thread/INFO]: [VeinMiner] Registering commands
-[07:41:20] [Server thread/INFO]: [VeinMiner] Registering events
-[07:41:20] [Thread-15/INFO]: [VeinMiner] You are on the latest version of VeinMiner!
-[07:41:20] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: veinminer [2.3.0]
-[07:41:20] [Server thread/INFO]: [VeinMiner] Vault not found. Economy support suspended
-[07:41:20] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
-[07:41:20] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
-[07:41:20] [Server thread/INFO]: [Parties] Enabling Parties v3.2.9
-[07:41:20] [Server thread/INFO]: [Parties] Initializing Parties v3.2.9
-[07:41:20] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/00010000000000000000001793e368ce5aa00100000000025936cb7fabf763f83d4922b8bb7f6b522b2345a483c0eeff1ad878a4343c3685
-[07:41:20] [Thread-13/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:808:2:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[07:41:21] [Server thread/WARN]: [Parties] The configuration key 'general.broadcast.titles.enable' in 'parties.yml' was not found, configuration outdated?
-[07:41:21] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[07:41:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: parties [3.2.9]
-[07:41:22] [Server thread/INFO]: [Parties] Hooked into PlaceholderAPI
-[07:41:22] [Server thread/INFO]: [Parties] Parties v3.2.9 enabled
-[07:41:22] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.7
-[07:41:23] [parties-pool-0/INFO]: [Parties] Parties v3.2.9 found a new version: 3.2.17
-[07:41:25] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[07:41:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auraskills [2.3.7]
-[07:41:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [2.3.7]
-[07:41:26] [Server thread/INFO]: [AuraSkills] Successfully registered hook PlaceholderAPI
-[07:41:26] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 27 ms
-[07:41:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
-[07:41:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R5' loaded!
-[07:41:26] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[07:41:26] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[07:41:26] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[07:41:27] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[07:41:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[07:41:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[07:41:27] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[07:41:27] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[07:41:28] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[07:41:28] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[07:41:28] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[07:41:28] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[07:41:28] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[07:41:28] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[07:41:28] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[07:41:28] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[07:41:28] [Server thread/INFO]: [Essentials] Using locale en
-[07:41:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[07:41:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[07:41:29] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[07:41:29] [Server thread/INFO]: [spark] Starting background profiler...
-[07:41:30] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[07:41:30] [Server thread/INFO]: Done preparing level "world" (18.441s)
-[07:41:30] [Server thread/INFO]: Running delayed init tasks
-[07:41:30] [Server thread/INFO]: [Parties] Hooked into Essentials
-[07:41:30] [Server thread/INFO]: [Parties] Failed to hook into Magic, disabled its features
-[07:41:30] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[07:41:30] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
-[07:41:31] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 317 total sources
-[07:41:31] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[07:41:31] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[07:41:31] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[07:41:31] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[07:41:31] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[07:41:31] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[07:41:31] [Server thread/INFO]: Done (50.235s)! For help, type "help"
-[07:43:53] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=171.255.60.21:5624, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, -85, -1, 60, 21, 21, -8, 42, -3, 0, -8, -85, 8, 104, -50, 91, 57, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -70, -8, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 44, -40, 118, 65, 55, 122, -111, 51, 79, 85, 62, 74, -93, 81, 4, -120], tunnelServerId=1, dataCenterId=28}
-[07:43:53] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[07:43:53] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
-[07:43:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[07:43:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[07:43:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[07:43:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[07:43:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[07:43:53] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[07:43:53] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[07:43:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=171.255.60.21:2604, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, -85, -1, 60, 21, 10, 44, -106, 93, -40, 79, -85, 8, 104, -50, 91, 59, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -77, 79, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, -127, -10, 88, 27, -64, -44, 5, 122, -119, 122, 0, -109, -62, 80, -32, -23], tunnelServerId=1, dataCenterId=28}
-[07:43:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[07:43:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
-[07:43:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[07:43:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[07:43:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[07:43:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[07:43:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[07:43:56] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[07:43:56] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[07:43:57] [User Authenticator #0/INFO]: UUID of player pandaT is d9a963f3-b6b7-307b-810b-2e8d1cd94f2e
-[07:43:57] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer, Essentials]
-[07:43:59] [Server thread/INFO]: pandaT joined the game
-[07:44:00] [Server thread/INFO]: pandaT[/127.0.0.1:53652] logged in with entity id 51 at ([world]9794.610878440357, 5.5, 9870.719278293998)
-[07:44:41] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=item]
-[07:44:41] [Server thread/INFO]: [pandaT: Killed 15 entities]
-[07:44:44] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=113.185.92.158:29618, claimAddress=209.25.140.2:42758, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 113, -71, 92, -98, 115, -78, 99, -69, 57, 80, -89, 6, 104, -50, 91, 108, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -19, 80, -89, 6, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 126, -73, 72, -43, 74, -76, 13, -57, -71, 9, -80, -34, 41, -54, -48, -70], tunnelServerId=1, dataCenterId=18}
-[07:44:44] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[07:44:44] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:42758 to claim client
-[07:44:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[07:44:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[07:44:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[07:44:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[07:44:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[07:44:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[07:44:44] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[07:44:46] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=113.185.92.158:15055, claimAddress=209.25.140.2:42758, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 113, -71, 92, -98, 58, -49, -18, 104, 22, 106, -89, 6, 104, -50, 91, 110, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, 110, 106, -89, 6, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, -117, 80, -72, -85, -12, -123, -45, 120, 5, -31, -1, -18, -124, 63, -46, 2], tunnelServerId=1, dataCenterId=18}
-[07:44:46] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[07:44:46] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:42758 to claim client
-[07:44:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[07:44:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[07:44:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[07:44:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[07:44:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[07:44:46] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[07:44:46] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[07:44:46] [User Authenticator #0/INFO]: UUID of player Takiin is b1577577-534d-36e3-829c-4b8ab538cd5a
-[07:44:47] [Server thread/INFO]: Takiin joined the game
-[07:44:47] [Server thread/INFO]: Takiin[/127.0.0.1:51926] logged in with entity id 466 at ([world]9796.154260427786, 6.0, 9875.098393483217)
-[07:44:50] [Server thread/INFO]: pandaT was kicked due to keepalive timeout!
-[07:44:50] [Server thread/INFO]: pandaT lost connection: Timed out
-[07:44:50] [Server thread/INFO]: pandaT left the game
-[07:44:51] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
-[07:44:51] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
-[07:45:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=171.255.60.21:6354, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, -85, -1, 60, 21, 24, -46, 26, 89, 43, 113, -85, 8, 104, -50, 91, -125, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -106, 113, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, -89, 21, 110, 30, -69, 33, -43, -20, -82, -45, 2, -116, -49, 46, -34, 6], tunnelServerId=1, dataCenterId=28}
-[07:45:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[07:45:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
-[07:45:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[07:45:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[07:45:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[07:45:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[07:45:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[07:45:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[07:45:08] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[07:45:23] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[07:45:35] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[07:46:28] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=95.111.227.12:57218, claimAddress=209.25.140.2:43783, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 95, 111, -29, 12, -33, -126, -77, -56, -6, -127, -85, 7, 104, -50, 91, -45, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -109, -127, -85, 7, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 17, 96, 76, 126, 15, 31, 110, -64, -26, 37, 35, 80, -95, 79, -2, 3], tunnelServerId=1, dataCenterId=38}
-[07:46:28] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[07:46:28] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
-[07:46:28] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[07:46:28] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[07:46:28] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[07:46:28] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[07:46:28] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[07:46:28] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[07:46:28] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[07:47:04] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=113.185.92.158:7208, claimAddress=209.25.140.2:42760, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 113, -71, 92, -98, 28, 40, -89, 17, 97, -66, -89, 8, 104, -50, 91, -8, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, 97, -66, -89, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -77, 78, -94, -100, 107, 106, -32, -77, -109, 43, -31, -53, -64, -115, 16, -95], tunnelServerId=1, dataCenterId=18}
-[07:47:04] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[07:47:04] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:42760 to claim client
-[07:47:04] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[07:47:04] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[07:47:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[07:47:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[07:47:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[07:47:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[07:47:05] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[07:47:05] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=113.185.92.158:2857, claimAddress=209.25.140.2:42760, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 113, -71, 92, -98, 11, 41, 74, 103, 19, -73, -89, 8, 104, -50, 91, -7, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, 8, -73, -89, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -96, -11, 45, -32, -78, 122, 102, 127, 8, 105, -70, 67, -73, -65, 33, -11], tunnelServerId=1, dataCenterId=18}
-[07:47:05] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[07:47:05] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:42760 to claim client
-[07:47:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[07:47:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[07:47:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[07:47:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[07:47:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[07:47:05] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[07:47:05] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[07:47:05] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[07:47:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=113.185.92.158:24575, claimAddress=209.25.140.2:42760, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 113, -71, 92, -98, 95, -1, 85, -67, -58, -111, -89, 8, 104, -50, 91, -5, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, 33, -111, -89, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 62, -41, -83, -96, 47, -2, -22, -105, -67, -98, -48, 34, -115, -2, -11, 90], tunnelServerId=1, dataCenterId=18}
-[07:47:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[07:47:07] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:42760 to claim client
-[07:47:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[07:47:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[07:47:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[07:47:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[07:47:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[07:47:08] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[07:47:08] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[07:47:08] [User Authenticator #1/INFO]: UUID of player hoangktuong is 6c8ddd8e-c5c7-385d-865d-56129b0b665c
-[07:47:10] [Server thread/INFO]: hoangktuong joined the game
-[07:47:10] [Server thread/INFO]: hoangktuong[/127.0.0.1:51922] logged in with entity id 937 at ([world_nether]64.48417647321483, 103.0, 15.045796621272888)
-[07:47:28] [Server thread/INFO]: hoangktuong issued server command: /fly
-[07:48:06] [Server thread/INFO]: Takiin issued server command: /warp Lang
-[07:49:23] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[07:49:36] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[07:50:13] [Server thread/INFO]: Takiin issued server command: /warp spawnerZom
-[07:50:18] [Server thread/INFO]: Takiin issued server command: /warp spawnerZom2
-[07:50:30] [Server thread/INFO]: Takiin issued server command: /warp
-[07:50:34] [Server thread/INFO]: Takiin issued server command: /warp dubSpawner
-[07:51:21] [Server thread/INFO]: Takiin has made the advancement [Take Aim]
-[07:51:54] [Server thread/INFO]: Villager Villager['Villager'/980, uuid='da14e3b1-0cb3-42cc-9e8d-9d51fed71a0f', l='ServerLevel[world_nether]', x=149.08, y=96.00, z=62.47, cpos=[9, 3], tl=5636, v=true] died, message: 'Villager burned to death'
-[07:53:25] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[07:53:37] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[07:56:27] [Server thread/INFO]: hoangktuong issued server command: /warp Lang
-[07:56:33] [Server thread/INFO]: Stopping the server
-[07:56:33] [Server thread/INFO]: Stopping server
-[07:56:33] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
-[07:56:33] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[07:56:33] [Server thread/INFO]: [Clumps] Disabling Clumps v5.0
-[07:56:33] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.7
-[07:56:33] [Server thread/INFO]: [Parties] Disabling Parties v3.2.9
-[07:56:33] [Server thread/INFO]: [Parties] Disabling Parties
-[07:56:33] [Server thread/INFO]: [Parties] Parties disabled
-[07:56:33] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.3.0
-[07:56:33] [Server thread/INFO]: [VeinMiner] Clearing localized data
-[07:56:33] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[07:56:33] [Server thread/INFO]: [ChatItem] Disabling ChatItem v2.6.2
-[07:56:33] [Server thread/INFO]: [SilkSpawners_v2] Disabling SilkSpawners_v2 v2.3.2
-[07:56:33] [Server thread/INFO]: [SilkSpawners] [INFO]: Stopping version checker
-[07:56:33] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
-[07:56:33] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
-[07:56:33] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
-[07:56:33] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
-[07:56:33] [Server thread/INFO]: Saving players
-[07:56:33] [Server thread/INFO]: Takiin lost connection: Server closed
-[07:56:33] [Server thread/INFO]: Takiin left the game
-[07:56:33] [Server thread/INFO]: hoangktuong lost connection: Server closed
-[07:56:33] [Server thread/INFO]: hoangktuong left the game
-[07:56:33] [Server thread/INFO]: Saving worlds
-[07:56:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[07:56:33] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[07:56:33] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[07:56:33] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[07:56:33] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
-[07:56:34] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
-[07:56:34] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
-[07:56:35] [Server thread/INFO]: [ChunkHolderManager] Saved 563 block chunks, 770 entity chunks, 0 poi chunks in world 'world' in 1.24s
-[07:56:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[07:56:35] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[07:56:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[07:56:35] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[07:56:35] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[07:56:35] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[07:56:36] [Server thread/INFO]: [ChunkHolderManager] Saved 1141 block chunks, 269 entity chunks, 0 poi chunks in world 'world_nether' in 0.95s
-[07:56:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[07:56:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[07:56:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[07:56:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[07:56:36] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[07:56:36] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[07:56:36] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[07:56:36] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[07:56:36] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[07:56:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[07:56:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[07:56:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[07:56:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[07:56:36] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[07:56:36] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[07:56:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[07:56:36] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[14:18:54] [Server thread/INFO]: [ChatItem] Loaded translation for en_gb.
+[14:18:54] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[14:18:54] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[14:18:54] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[14:18:54] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v2.3.0
+[14:18:54] [Server thread/INFO]: [VeinMiner] Using "sqlite" for persistent data storage.
+[14:18:54] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[14:18:54] [Server thread/INFO]: [VeinMiner] Added 14 aliases.
+[14:18:54] [Server thread/INFO]: [VeinMiner] Registered category with id "Axe" holding 6 unique items and 28 unique blocks.
+[14:18:54] [Server thread/INFO]: [VeinMiner] Registered category with id "Hoe" holding 6 unique items and 12 unique blocks.
+[14:18:54] [Server thread/INFO]: [VeinMiner] Registered category with id "Pickaxe" holding 6 unique items and 14 unique blocks.
+[14:18:54] [Server thread/INFO]: [VeinMiner] Registered category with id "Shears" holding 1 unique items and 4 unique blocks.
+[14:18:54] [Server thread/INFO]: [VeinMiner] Registered category with id "Shovel" holding 6 unique items and 10 unique blocks.
+[14:18:54] [Server thread/WARN]: [VeinMiner] No block list configured for category with id "Hand"! Is this intentional?
+[14:18:54] [Server thread/INFO]: [VeinMiner] Registered category with id "Hand" holding 0 unique items and 0 unique blocks.
+[14:18:54] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[14:18:54] [Server thread/INFO]: [VeinMiner] Registering commands
+[14:18:55] [Server thread/INFO]: [VeinMiner] Registering events
+[14:18:55] [Thread-15/INFO]: [VeinMiner] You are on the latest version of VeinMiner!
+[14:18:55] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: veinminer [2.3.0]
+[14:18:55] [Server thread/INFO]: [VeinMiner] Vault not found. Economy support suspended
+[14:18:55] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[14:18:55] [Server thread/INFO]: [VeinMiner] Thanks for enabling Metrics! The anonymous stats are appreciated
+[14:18:55] [Server thread/INFO]: [Parties] Enabling Parties v3.2.9
+[14:18:55] [Server thread/INFO]: [Parties] Initializing Parties v3.2.9
+[14:18:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: quote-denial.gl.joinmc.link
+[14:18:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[14:18:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] setup playit.gg account: https://playit.gg/login/guest-account/00010000000000000000001793e368ceb7cf01000000000299e80f8ca57cffbddb36d59e54ffbed548b69bcf6f163302764d455d3fd99838
+[14:18:55] [Thread-13/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:808:2:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[14:18:55] [Server thread/WARN]: [Parties] The configuration key 'general.broadcast.titles.enable' in 'parties.yml' was not found, configuration outdated?
+[14:18:56] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[14:18:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: parties [3.2.9]
+[14:18:57] [Server thread/INFO]: [Parties] Hooked into PlaceholderAPI
+[14:18:57] [Server thread/INFO]: [Parties] Parties v3.2.9 enabled
+[14:18:57] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.7
+[14:18:59] [parties-pool-0/INFO]: [Parties] Parties v3.2.9 found a new version: 3.2.17
+[14:18:59] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[14:19:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auraskills [2.3.7]
+[14:19:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [2.3.7]
+[14:19:00] [Server thread/INFO]: [AuraSkills] Successfully registered hook PlaceholderAPI
+[14:19:00] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 48 ms
+[14:19:00] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
+[14:19:00] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R5' loaded!
+[14:19:00] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[14:19:00] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[14:19:00] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[14:19:01] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[14:19:02] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[14:19:02] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[14:19:02] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[14:19:03] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[14:19:03] [Server thread/INFO]: [Essentials] Using locale en
+[14:19:03] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[14:19:04] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[14:19:04] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[14:19:05] [Server thread/INFO]: [spark] Starting background profiler...
+[14:19:05] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:19:05] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[14:19:05] [Server thread/INFO]: Done preparing level "world" (16.995s)
+[14:19:05] [Server thread/INFO]: Running delayed init tasks
+[14:19:05] [Server thread/INFO]: [Parties] Hooked into Essentials
+[14:19:05] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[14:19:05] [Server thread/INFO]: [Parties] Failed to hook into Magic, disabled its features
+[14:19:05] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[14:19:06] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 317 total sources
+[14:19:06] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[14:19:06] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[14:19:07] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[14:19:07] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:19:07] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[14:19:07] [Server thread/INFO]: Done (42.965s)! For help, type "help"
+[14:22:59] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:23:11] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:24:48] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=103.156.2.3:10887, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 103, -100, 2, 3, 42, -121, -64, -24, 92, 118, -85, 8, 104, -50, -71, 48, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -69, 118, -85, 8, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 112, 113, 96, -114, -98, 99, 89, -7, 30, -86, 51, -36, -88, -91, -60, -20], tunnelServerId=1, dataCenterId=40}
+[14:24:48] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:24:48] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
+[14:24:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:24:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:24:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:24:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[14:24:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[14:24:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[14:24:49] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:24:50] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[14:24:50] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=103.156.2.3:6808, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 103, -100, 2, 3, 26, -104, -77, 97, -27, 32, -85, 8, 104, -50, -71, 50, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, 92, 32, -85, 8, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, -10, -74, 41, 101, -32, 69, 124, -12, -53, 111, 38, -74, -42, 83, -50, 111], tunnelServerId=1, dataCenterId=40}
+[14:24:50] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:24:50] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
+[14:24:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:24:50] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:24:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:24:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[14:24:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[14:24:51] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[14:24:51] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:25:00] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=103.156.2.3:29099, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 103, -100, 2, 3, 113, -85, -28, -30, -7, 15, -85, 8, 104, -50, -71, 60, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -121, 15, -85, 8, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 67, 113, 25, 18, -90, -54, -106, -105, -32, -68, 30, 57, 81, 25, -119, 31], tunnelServerId=1, dataCenterId=40}
+[14:25:00] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:25:00] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
+[14:25:01] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:25:01] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:25:01] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:25:01] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[14:25:01] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[14:25:01] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[14:25:01] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:25:01] [User Authenticator #0/INFO]: UUID of player pandaT is d9a963f3-b6b7-307b-810b-2e8d1cd94f2e
+[14:25:01] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [SkinsRestorer, Essentials]
+[14:25:04] [Server thread/INFO]: pandaT joined the game
+[14:25:04] [Server thread/INFO]: pandaT[/127.0.0.1:41350] logged in with entity id 18 at ([world]9795.738927954755, 5.5, 9871.348123501264)
+[14:27:01] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:27:13] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:27:25] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:27:25] [Server thread/INFO]: [pandaT: Killed 19 entities]
+[14:27:37] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:27:37] [Server thread/INFO]: [pandaT: Killed Bow]
+[14:28:26] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:28:26] [Server thread/INFO]: [pandaT: Killed 9 entities]
+[14:28:36] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:28:36] [Server thread/INFO]: [pandaT: Killed 8 entities]
+[14:28:57] [Server thread/INFO]: pandaT issued server command: /ec
+[14:29:09] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:29:09] [Server thread/INFO]: [pandaT: Killed 14 entities]
+[14:31:03] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:31:15] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:34:41] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:34:41] [Server thread/INFO]: [pandaT: Killed 23 entities]
+[14:34:52] [Server thread/INFO]: pandaT issued server command: /ec
+[14:35:04] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:35:16] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:35:27] [Server thread/INFO]: pandaT issued server command: /ec
+[14:35:29] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:35:29] [Server thread/INFO]: [pandaT: Killed 13 entities]
+[14:37:26] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:37:26] [Server thread/INFO]: [pandaT: Killed 11 entities]
+[14:38:20] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:38:20] [Server thread/INFO]: [pandaT: Killed 13 entities]
+[14:38:32] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:38:32] [Server thread/INFO]: [pandaT: Killed 17 entities]
+[14:39:06] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:39:18] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:40:20] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:40:20] [Server thread/INFO]: [pandaT: Killed 10 entities]
+[14:40:23] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:40:23] [Server thread/INFO]: [pandaT: Killed 7 entities]
+[14:41:00] [Server thread/INFO]: pandaT issued server command: /ec
+[14:41:15] [Server thread/INFO]: pandaT issued server command: /warp lang
+[14:41:19] [Server thread/INFO]: pandaT issued server command: /fly
+[14:43:07] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:43:19] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:45:57] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=95.111.227.12:37930, claimAddress=209.25.140.2:43783, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 95, 111, -29, 12, -108, 42, -11, -118, -83, -71, -85, 7, 104, -50, -66, 37, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -92, -71, -85, 7, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 2, -63, 42, -100, 98, -77, -15, 35, 103, -77, -16, -99, 60, 73, -39, 36], tunnelServerId=1, dataCenterId=36}
+[14:45:57] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[14:45:57] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[14:45:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[14:45:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[14:45:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[14:45:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[14:45:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[14:45:58] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[14:45:58] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[14:46:12] [Server thread/INFO]: pandaT issued server command: /warp dubSpawner
+[14:47:09] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:47:21] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:47:51] [Server thread/INFO]: pandaT issued server command: /warp Lang
+[14:51:10] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:51:22] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:54:53] [Server thread/INFO]: pandaT drowned
+[14:55:12] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:55:24] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:55:33] [Server thread/INFO]: pandaT issued server command: /fly
+[14:56:38] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:56:38] [Server thread/INFO]: [pandaT: Killed 151 entities]
+[14:57:08] [Server thread/INFO]: pandaT issued server command: /warp dubSpawner
+[14:57:27] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:57:27] [Server thread/INFO]: [pandaT: Killed 11 entities]
+[14:57:42] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:57:42] [Server thread/INFO]: [pandaT: Killed Egg]
+[14:57:49] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:57:49] [Server thread/INFO]: [pandaT: Killed Bone Meal]
+[14:58:46] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:58:46] [Server thread/INFO]: [pandaT: Killed 6 entities]
+[14:59:13] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:59:13] [Server thread/INFO]: [pandaT: Killed 9 entities]
+[14:59:13] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[14:59:19] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[14:59:19] [Server thread/INFO]: [pandaT: Killed 7 entities]
+[14:59:25] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:02:49] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=146.70.225.213:59906, claimAddress=209.25.140.2:43783, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, -110, 70, -31, -43, -22, 2, 10, 101, 65, -79, -85, 7, 104, -50, -62, 25, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -24, -79, -85, 7, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 38, 117, 92, 27, 115, 119, -15, 4, 89, -27, -57, -73, -48, 77, 125, -32], tunnelServerId=1, dataCenterId=36}
+[15:02:49] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:02:49] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[15:02:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:02:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:02:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:02:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:02:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:02:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:02:49] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:03:13] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:03:26] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:03:40] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:03:40] [Server thread/INFO]: [pandaT: Killed 11 entities]
+[15:03:50] [Server thread/INFO]: pandaT issued server command: /ec
+[15:04:41] [Server thread/INFO]: pandaT issued server command: /fix all
+[15:04:44] [Server thread/INFO]: pandaT issued server command: /ec
+[15:05:13] [Server thread/INFO]: pandaT issued server command: /ec
+[15:05:16] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:05:16] [Server thread/INFO]: [pandaT: Killed 17 entities]
+[15:05:22] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:05:22] [Server thread/INFO]: [pandaT: Killed Iron Shovel]
+[15:07:15] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:07:27] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:08:22] [Server thread/INFO]: pandaT issued server command: /ec
+[15:08:39] [Server thread/INFO]: pandaT issued server command: /pv 1
+[15:08:42] [Server thread/INFO]: pandaT issued server command: /ec
+[15:09:35] [Server thread/INFO]: pandaT issued server command: /pv 1
+[15:09:36] [Server thread/INFO]: pandaT issued server command: /ec
+[15:09:50] [Server thread/INFO]: pandaT issued server command: /ec
+[15:10:02] [Server thread/INFO]: pandaT issued server command: /ec
+[15:11:09] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:11:09] [Server thread/INFO]: [pandaT: Killed 13 entities]
+[15:11:16] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:11:29] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:11:32] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:11:32] [Server thread/INFO]: [pandaT: Killed 12 entities]
+[15:15:18] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:15:30] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:17:50] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:17:50] [Server thread/INFO]: [pandaT: Killed 15 entities]
+[15:17:55] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:17:55] [Server thread/INFO]: [pandaT: Killed Chainmail Helmet]
+[15:18:02] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:18:02] [Server thread/INFO]: [pandaT: Killed 11 entities]
+[15:19:19] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:19:25] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:19:25] [Server thread/INFO]: [pandaT: Killed 9 entities]
+[15:19:32] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:19:51] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:19:51] [Server thread/INFO]: [pandaT: Killed 12 entities]
+[15:20:32] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:20:32] [Server thread/INFO]: [pandaT: Killed 9 entities]
+[15:20:43] [Server thread/INFO]: pandaT issued server command: /skillrank
+[15:20:59] [Server thread/INFO]: pandaT issued server command: /skillrank
+[15:21:02] [Server thread/INFO]: pandaT issued server command: /skilltop
+[15:21:12] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:21:12] [Server thread/INFO]: [pandaT: Killed 15 entities]
+[15:21:21] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:21:21] [Server thread/INFO]: [pandaT: Killed 2 entities]
+[15:22:51] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:22:51] [Server thread/INFO]: [pandaT: Killed 16 entities]
+[15:22:54] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:22:54] [Server thread/INFO]: [pandaT: Killed 10 entities]
+[15:23:00] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:23:00] [Server thread/INFO]: [pandaT: Killed 5 entities]
+[15:23:03] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:23:03] [Server thread/INFO]: [pandaT: Killed 4 entities]
+[15:23:21] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:23:33] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:23:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=193.32.127.156:59760, claimAddress=209.25.140.2:43783, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, -63, 32, 127, -100, -23, 112, -50, -87, 127, 120, -85, 7, 104, -50, -57, 10, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -75, 120, -85, 7, 0, 0, 0, 0, 36, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, -14, -5, -43, 9, -82, -83, 119, 119, -33, 110, -118, -5, -82, 81, 11, 120], tunnelServerId=1, dataCenterId=36}
+[15:23:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:23:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[15:23:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:23:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:23:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:23:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:23:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:23:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:23:55] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:24:17] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[15:24:44] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:24:44] [Server thread/INFO]: [pandaT: Killed 16 entities]
+[15:24:58] [Server thread/INFO]: pandaT issued server command: /ec
+[15:25:18] [Server thread/INFO]: pandaT issued server command: /ec
+[15:25:29] [Server thread/INFO]: pandaT issued server command: /fix
+[15:26:22] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:26:22] [Server thread/INFO]: [pandaT: Killed 10 entities]
+[15:26:28] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:26:28] [Server thread/INFO]: [pandaT: Killed 17 entities]
+[15:26:33] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:26:33] [Server thread/INFO]: [pandaT: Killed 3 entities]
+[15:26:42] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:26:42] [Server thread/INFO]: [pandaT: Killed Golden Leggings]
+[15:26:49] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:26:49] [Server thread/INFO]: [pandaT: Killed 10 entities]
+[15:27:04] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:27:04] [Server thread/INFO]: [pandaT: Killed 4 entities]
+[15:27:22] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:27:34] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:27:48] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=159.223.70.193:29056, claimAddress=209.25.140.2:43783, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, -97, -33, 70, -63, 113, -128, 84, 40, -58, 101, -85, 7, 104, -50, -57, -12, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, 52, 101, -85, 7, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 1, 0, 2, 40, 82, -36, -68, 60, -122, 56, 32, -72, -115, 35, -63, 106, 39, 122, -2], tunnelServerId=1, dataCenterId=40}
+[15:27:48] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:27:48] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[15:27:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:27:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:27:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:27:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:27:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:27:49] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:27:49] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:30:03] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:30:03] [Server thread/INFO]: [pandaT: Killed 9 entities]
+[15:30:09] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:30:09] [Server thread/INFO]: [pandaT: Killed 24 entities]
+[15:30:24] [Server thread/INFO]: pandaT issued server command: /ec
+[15:30:54] [Server thread/INFO]: pandaT issued server command: /ec
+[15:30:56] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:30:56] [Server thread/INFO]: [pandaT: Killed 12 entities]
+[15:31:25] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:31:37] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:32:59] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:0804:0001:0000:0000:0000:00b4]:12700, peerAddr=[2605:6440:3009:b000:8f34:4bd3:7462:9658]:55107, claimAddress=209.25.140.2:43783, claimToken=[64, 0, 92, 38, 2, -5, -81, 8, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, -76, 49, -100, 38, 5, 100, 64, 48, 9, -80, 0, -113, 52, 75, -45, 116, 98, -106, 88, -41, 67, -120, 27, 21, 43, -85, 7, 104, -50, -55, 43, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, 51, 43, -85, 7, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 52, -117, -75, -22, -123, 69, 54, -49, 108, 125, 59, 49, 27, 116, 32, -40], tunnelServerId=1, dataCenterId=40}
+[15:32:59] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:32:59] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[15:33:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:33:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:33:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:33:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:33:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:33:00] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:33:00] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:33:00] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=[2602:fbaf:0804:0001:0000:0000:0000:00b4]:12700, peerAddr=[2605:6440:3009:b000:8f34:4bd3:7462:9658]:36045, claimAddress=209.25.140.2:43783, claimToken=[64, 0, 92, 38, 2, -5, -81, 8, 4, 0, 1, 0, 0, 0, 0, 0, 0, 0, -76, 49, -100, 38, 5, 100, 64, 48, 9, -80, 0, -113, 52, 75, -45, 116, 98, -106, 88, -116, -51, 76, 11, -27, -110, -85, 7, 104, -50, -55, 44, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -74, -110, -85, 7, 0, 0, 0, 0, 40, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 19, 49, -67, 28, 17, 38, -34, -26, -83, 16, 114, -63, -33, -79, -99, 35], tunnelServerId=1, dataCenterId=40}
+[15:33:00] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:33:00] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[15:33:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:33:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:33:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:33:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:33:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:33:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:33:00] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:33:01] [User Authenticator #1/INFO]: UUID of player Takiin is b1577577-534d-36e3-829c-4b8ab538cd5a
+[15:33:03] [Server thread/INFO]: Takiin joined the game
+[15:33:03] [Server thread/INFO]: Takiin[/127.0.0.1:53662] logged in with entity id 16360 at ([world]9796.814577042584, 6.0, 9874.17528100944)
+[15:33:51] [Server thread/INFO]: Takiin issued server command: /warp farm_villager
+[15:35:25] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:35:38] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:36:24] [Server thread/INFO]: Takiin issued server command: /warp farm_villager
+[15:37:31] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:37:31] [Server thread/INFO]: [pandaT: Killed 36 entities]
+[15:37:41] [Server thread/INFO]: Takiin issued server command: /warp farm_villager
+[15:37:43] [Server thread/INFO]: pandaT issued server command: /ec `Takiin
+[15:37:45] [Server thread/INFO]: pandaT issued server command: /ec
+[15:37:55] [Server thread/INFO]: pandaT issued server command: /tp t
+[15:37:57] [Server thread/INFO]: pandaT issued server command: /tp ta
+[15:38:08] [Async Chat Thread - #0/INFO]: [Not Secure] <`Takiin> woww
+[15:38:15] [Server thread/INFO]: pandaT issued server command: /ec
+[15:38:46] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=14.186.136.52:56199, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 14, -70, -120, 52, -37, -121, -121, 112, 90, -60, -85, 8, 104, -50, -54, -122, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -14, -60, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 105, -4, -48, 39, 20, 59, 58, 109, -20, 69, -91, -102, 13, 95, 30, 63], tunnelServerId=1, dataCenterId=18}
+[15:38:46] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:38:46] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
+[15:38:47] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:38:47] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:38:47] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:38:47] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:38:47] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:38:47] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:38:47] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:38:47] [Server thread/INFO]: pandaT issued server command: /warp dub
+[15:38:47] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[15:38:47] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=14.186.136.52:56200, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 14, -70, -120, 52, -37, -120, -83, -38, -34, 84, -85, 8, 104, -50, -54, -121, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -66, 84, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 3, 34, -9, 10, -5, 110, -22, 90, -9, -60, -65, -62, 79, -24, -36, 58, 32], tunnelServerId=1, dataCenterId=18}
+[15:38:47] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:38:47] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
+[15:38:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:38:47] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:38:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:38:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:38:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:38:48] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:38:48] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:38:48] [Server thread/INFO]: pandaT issued server command: /warp dub
+[15:38:50] [Server thread/INFO]: pandaT issued server command: /warp dubSpawner
+[15:38:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=14.186.136.52:56212, claimAddress=209.25.140.2:43784, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 14, -70, -120, 52, -37, -108, 1, -105, -46, -11, -85, 8, 104, -50, -54, -113, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -113, -11, -85, 8, 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, -35, 100, -32, -17, -89, -16, 36, 39, -115, 30, -11, -61, 116, 71, -80, -73], tunnelServerId=1, dataCenterId=18}
+[15:38:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:38:55] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43784 to claim client
+[15:38:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:38:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:38:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:38:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:38:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:38:55] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:38:55] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:38:56] [User Authenticator #2/INFO]: UUID of player hoangktuong is 6c8ddd8e-c5c7-385d-865d-56129b0b665c
+[15:38:57] [Server thread/INFO]: hoangktuong joined the game
+[15:38:57] [Server thread/INFO]: hoangktuong[/127.0.0.1:40932] logged in with entity id 18320 at ([world]373.6015143225734, 64.0, 1060.4477467754948)
+[15:39:03] [Async Chat Thread - #0/INFO]: [Not Secure] <`TaiLe> helo
+[15:39:09] [Server thread/INFO]: pandaT issued server command: /ec
+[15:39:09] [Async Chat Thread - #0/INFO]: [Not Secure] <`Quang_Riji> looooo
+[15:39:14] [Async Chat Thread - #0/INFO]: [Not Secure] <`TaiLe> xin sach
+[15:39:25] [Server thread/INFO]: hoangktuong issued server command: /warp dubSpawner
+[15:39:26] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:39:38] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:39:49] [Async Chat Thread - #0/INFO]: [Not Secure] <`TaiLe> xin sach
+[15:39:54] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:39:54] [Server thread/INFO]: [pandaT: Killed 13 entities]
+[15:39:56] [Async Chat Thread - #0/INFO]: [Not Secure] <`Quang_Riji> ben kia
+[15:40:02] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:40:02] [Server thread/INFO]: [pandaT: Killed 3 entities]
+[15:40:04] [Async Chat Thread - #1/INFO]: [Not Secure] <`TaiLe> ha
+[15:40:25] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:40:25] [Server thread/INFO]: [pandaT: Killed 11 entities]
+[15:40:26] [Server thread/INFO]: pandaT issued server command: /ec
+[15:41:15] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:41:15] [Server thread/INFO]: [pandaT: Killed 14 entities]
+[15:41:28] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:41:28] [Server thread/INFO]: [pandaT: Killed 5 entities]
+[15:41:59] [Server thread/INFO]: hoangktuong issued server command: /ec
+[15:42:18] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[15:42:18] [Server thread/INFO]: [pandaT: Killed 16 entities]
+[15:42:39] [Server thread/INFO]: pandaT issued server command: /invsee `Quang_Riji
+[15:42:39] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=146.70.74.122:53240, claimAddress=209.25.140.2:43783, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, -110, 70, 74, 122, -49, -8, -120, 62, -98, 67, -85, 7, 104, -50, -53, 111, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, 95, 67, -85, 7, 0, 0, 0, 0, 37, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 8, -79, -2, 11, 119, 83, -34, -84, 37, -123, 5, 80, -32, 8, 120, 30], tunnelServerId=1, dataCenterId=37}
+[15:42:39] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:42:39] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[15:42:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:42:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:42:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:42:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:42:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:42:39] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:42:39] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:43:16] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[15:43:16] [Server thread/INFO]: [hoangktuong: Killed 11 entities]
+[15:43:29] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:43:39] [Server thread/INFO]: Takiin issued server command: /fly
+[15:43:41] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:44:14] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[15:44:14] [Server thread/INFO]: [hoangktuong: Killed 13 entities]
+[15:44:23] [Async Chat Thread - #2/INFO]: [Not Secure] <`TaiLe> xin cay silk
+[15:44:26] [Async Chat Thread - #3/INFO]: [Not Secure] <`TaiLe> di ddaof blaze
+[15:44:28] [Server thread/INFO]: hoangktuong issued server command: /ec
+[15:44:30] [Server thread/INFO]: pandaT issued server command: /ec
+[15:44:45] [Server thread/INFO]: pandaT issued server command: /warp ThanhNether
+[15:44:49] [Server thread/INFO]: pandaT issued server command: /ec
+[15:45:21] [Server thread/INFO]: hoangktuong issued server command: /kit dtools
+[15:45:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /broadcast hoangktuong just got some fancy tools!
+[15:46:41] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[15:46:41] [Server thread/INFO]: [hoangktuong: Killed 24 entities]
+[15:47:05] [Server thread/INFO]: pandaT was slain by Wither Skeleton
+[15:47:10] [Server thread/INFO]: pandaT issued server command: /back
+[15:47:15] [Server thread/INFO]: pandaT issued server command: /warp
+[15:47:17] [Server thread/INFO]: pandaT issued server command: /warp ThanhNether
+[15:47:27] [Server thread/INFO]: pandaT issued server command: /fly
+[15:47:30] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:47:43] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:48:02] [Async Chat Thread - #4/INFO]: [Not Secure] <`Quang_Riji> ê tài tui có cái quét cạnh 3 của kiếm nè ông lấy ko
+[15:48:09] [Async Chat Thread - #4/INFO]: [Not Secure] <`TaiLe> ko a
+[15:48:10] [Async Chat Thread - #4/INFO]: [Not Secure] <`Quang_Riji> tui ko sài kiếm
+[15:48:27] [Async Chat Thread - #4/INFO]: [Not Secure] <`TaiLe> kim tui ench them nx laf suawr hao xp
+[15:48:37] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[15:48:37] [Server thread/INFO]: [hoangktuong: Killed 20 entities]
+[15:51:32] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:51:45] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:51:51] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[15:51:51] [Server thread/INFO]: [hoangktuong: Killed 23 entities]
+[15:53:39] [Server thread/INFO]: pandaT issued server command: /ec
+[15:53:55] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[15:53:55] [Server thread/INFO]: [hoangktuong: Killed 20 entities]
+[15:54:46] [Server thread/INFO]: pandaT issued server command: /ec
+[15:55:34] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:55:47] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:56:16] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[15:56:16] [Server thread/INFO]: [hoangktuong: Killed 19 entities]
+[15:57:46] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[15:57:46] [Server thread/INFO]: [hoangktuong: Killed 20 entities]
+[15:58:32] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[15:58:32] [Server thread/INFO]: [hoangktuong: Killed 13 entities]
+[15:58:39] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.180:12700, peerAddr=95.111.227.12:56278, claimAddress=209.25.140.2:43783, claimToken=[44, 0, 68, -109, -71, -35, -76, 49, -100, 95, 111, -29, 12, -37, -42, 120, 125, 24, -29, -85, 7, 104, -50, -49, 47, 0, 0, 0, 0, 0, 23, -109, -29, 0, 0, 0, 0, 0, 75, 72, -21, 0, 0, 0, 0, 0, 34, 67, 31, -35, -29, -85, 7, 0, 0, 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 52, -79, -19, 34, -103, -104, -120, -123, -37, 79, 111, 49, -53, 119, -30, -83], tunnelServerId=1, dataCenterId=38}
+[15:58:39] [Thread-13/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[15:58:39] [Thread-13/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.140.2:43783 to claim client
+[15:58:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[15:58:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[15:58:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[15:58:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[15:58:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[15:58:39] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[15:58:39] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[15:58:50] [Async Chat Thread - #6/INFO]: [Not Secure] <`Quang_Riji> quái mặc giáp gai =))
+[15:59:34] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[15:59:47] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:00:04] [Async Chat Thread - #8/INFO]: [Not Secure] <`Quang_Riji> quái mặc giáp gai =))
+[16:00:11] [Async Chat Thread - #8/INFO]: [Not Secure] <`Quang_Riji> nhaamf
+[16:00:14] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:00:14] [Server thread/INFO]: [hoangktuong: Killed 9 entities]
+[16:00:37] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:00:37] [Server thread/INFO]: [hoangktuong: Killed 7 entities]
+[16:01:05] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:01:05] [Server thread/INFO]: [hoangktuong: Killed 16 entities]
+[16:02:41] [Server thread/INFO]: pandaT issued server command: /ec
+[16:02:42] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:02:42] [Server thread/INFO]: [hoangktuong: Killed 17 entities]
+[16:03:10] [Server thread/INFO]: pandaT burned to death
+[16:03:13] [Server thread/INFO]: pandaT issued server command: /ec
+[16:03:18] [Server thread/INFO]: pandaT issued server command: /tp h
+[16:03:24] [Async Chat Thread - #10/INFO]: [Not Secure] <`TaiLe> tra cyo
+[16:03:27] [Async Chat Thread - #10/INFO]: [Not Secure] <`TaiLe> á
+[16:03:31] [Server thread/INFO]: pandaT issued server command: /ec
+[16:03:36] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:03:48] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:03:54] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:03:54] [Server thread/INFO]: [hoangktuong: Killed 12 entities]
+[16:04:19] [Async Chat Thread - #10/INFO]: [Not Secure] <`TaiLe> har'
+[16:04:26] [Server thread/INFO]: pandaT issued server command: /ec
+[16:04:38] [Server thread/INFO]: pandaT issued server command: /fly
+[16:04:53] [Async Chat Thread - #10/INFO]: [Not Secure] <`Quang_Riji> protection 4 cao nhaats rooif phari ko version ms cos theem ko
+[16:04:54] [Async Chat Thread - #10/INFO]: [Not Secure] <`TaiLe> đông thế'
+[16:04:59] [Async Chat Thread - #10/INFO]: [Not Secure] <`TaiLe> ko co
+[16:05:19] [Server thread/INFO]: pandaT was shot by Skeleton
+[16:05:22] [Async Chat Thread - #10/INFO]: [Not Secure] <`TaiLe> vl
+[16:05:27] [Server thread/INFO]: pandaT issued server command: /tp h
+[16:05:38] [Server thread/INFO]: pandaT issued server command: /fly
+[16:05:56] [Server thread/INFO]: hoangktuong issued server command: /fly
+[16:06:06] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:06:06] [Server thread/INFO]: [hoangktuong: Killed 21 entities]
+[16:06:11] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[16:06:33] [Async Chat Thread - #12/INFO]: [Not Secure] <`TaiLe> đưa balze voa lun ko
+[16:07:13] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:07:13] [Server thread/INFO]: [hoangktuong: Killed 14 entities]
+[16:07:37] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:07:50] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:08:12] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:08:12] [Server thread/INFO]: [hoangktuong: Killed 21 entities]
+[16:08:40] [Server thread/INFO]: pandaT was fireballed by Blaze
+[16:08:44] [Server thread/INFO]: pandaT issued server command: /tp h
+[16:08:53] [Server thread/INFO]: pandaT issued server command: /fly
+[16:09:08] [Server thread/INFO]: pandaT issued server command: /fly
+[16:09:09] [Server thread/INFO]: pandaT issued server command: /fly
+[16:09:10] [Server thread/INFO]: pandaT was slain by Zombie
+[16:09:14] [Server thread/INFO]: pandaT issued server command: /tp h
+[16:09:31] [Server thread/INFO]: hoangktuong issued server command: /ec
+[16:09:48] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[16:09:48] [Server thread/INFO]: [pandaT: Killed 15 entities]
+[16:10:18] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[16:10:18] [Server thread/INFO]: [pandaT: Killed 5 entities]
+[16:10:20] [Server thread/INFO]: pandaT issued server command: /ec
+[16:10:51] [Server thread/INFO]: pandaT issued server command: /ec
+[16:11:39] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:11:41] [Async Chat Thread - #14/INFO]: [Not Secure] <`TaiLe> lay kiem loooting k
+[16:11:51] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:12:00] [Async Chat Thread - #14/INFO]: [Not Secure] <`Quang_Riji> ngonn
+[16:12:05] [Server thread/INFO]: pandaT issued server command: /warp Jungle
+[16:12:12] [Server thread/INFO]: pandaT issued server command: /fly
+[16:12:19] [Server thread/INFO]: pandaT issued server command: /ec
+[16:12:39] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:12:39] [Server thread/INFO]: [hoangktuong: Killed 24 entities]
+[16:13:37] [Async Chat Thread - #16/INFO]: [Not Secure] <`TaiLe> ./skilltop
+[16:13:40] [Server thread/INFO]: pandaT issued server command: /skilltop
+[16:13:47] [Server thread/INFO]: hoangktuong issued server command: /skilltop
+[16:13:58] [Server thread/INFO]: hoangktuong issued server command: /skill
+[16:14:46] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:14:46] [Server thread/INFO]: [hoangktuong: Killed 86 entities]
+[16:15:05] [Server thread/INFO]: Takiin issued server command: /home
+[16:15:10] [Server thread/INFO]: Takiin issued server command: /warp Lang
+[16:15:40] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:15:53] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:16:05] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:16:05] [Server thread/INFO]: [hoangktuong: Killed 62 entities]
+[16:16:19] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:16:19] [Server thread/INFO]: [hoangktuong: Killed 22 entities]
+[16:16:54] [Server thread/INFO]: Takiin has made the advancement [We Need to Go Deeper]
+[16:17:10] [Server thread/INFO]: Takiin issued server command: /warp Lang
+[16:17:20] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:17:20] [Server thread/INFO]: [hoangktuong: Killed 51 entities]
+[16:18:37] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:18:37] [Server thread/INFO]: [hoangktuong: Killed 42 entities]
+[16:19:19] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:19:19] [Server thread/INFO]: [hoangktuong: Killed 13 entities]
+[16:19:42] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:19:54] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:22:20] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:22:20] [Server thread/INFO]: [hoangktuong: Killed 33 entities]
+[16:23:43] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:23:56] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:27:33] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:27:33] [Server thread/INFO]: [hoangktuong: Killed 21 entities]
+[16:27:45] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:27:47] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:27:47] [Server thread/INFO]: [hoangktuong: Killed 20 entities]
+[16:27:57] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:27:58] [Server thread/INFO]: hoangktuong issued server command: /warp Lang
+[16:28:11] [Server thread/INFO]: pandaT issued server command: /tp ta
+[16:28:26] [Server thread/INFO]: pandaT issued server command: /locate biome minecraft:jungle
+[16:28:26] [Server thread/INFO]: Locating element minecraft:jungle took 256 ms
+[16:28:29] [Server thread/INFO]: pandaT issued server command: /tp @s -624 67 1985
+[16:28:37] [Server thread/INFO]: pandaT issued server command: /tp pandaT -624 67 1985
+[16:28:51] [Async Chat Thread - #18/INFO]: [Not Secure] <`Quang_Riji> fuck
+[16:29:30] [Async Chat Thread - #18/INFO]: [Not Secure] <`Quang_Riji> tài mending nè 16 em
+[16:29:48] [Async Chat Thread - #18/INFO]: [Not Secure] <`Quang_Riji> đừng phá bục sách nha vũ
+[16:30:20] [Async Chat Thread - #18/INFO]: [Not Secure] <`Takiin> trade nos lên lvel có đồ ngon
+[16:30:24] [Server thread/INFO]: Takiin issued server command: /fly
+[16:30:35] [Async Chat Thread - #19/INFO]: [Not Secure] <`Quang_Riji> mending chwa ddur ngon har =))
+[16:30:48] [Async Chat Thread - #18/INFO]: [Not Secure] <`Takiin> no de ne
+[16:30:54] [Async Chat Thread - #18/INFO]: [Not Secure] <`Takiin> 18+
+[16:31:14] [Async Chat Thread - #18/INFO]: [Not Secure] <`TaiLe> hă
+[16:31:24] [Async Chat Thread - #18/INFO]: [Not Secure] <`TaiLe> trade 1 món để lưuu di
+[16:31:33] [Server thread/INFO]: Takiin issued server command: /fly
+[16:31:45] [Server thread/INFO]: Takiin starved to death
+[16:31:46] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:31:59] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:32:00] [Server thread/INFO]: hoangktuong issued server command: /warp dubSpawner
+[16:32:30] [Server thread/INFO]: pandaT issued server command: /heal
+[16:32:32] [Async Chat Thread - #20/INFO]: [Not Secure] <`Quang_Riji> dân làng nào đổi giấy ta
+[16:32:41] [Async Chat Thread - #20/INFO]: [Not Secure] <`TaiLe> thủ thư
+[16:32:44] [Async Chat Thread - #20/INFO]: [Not Secure] <`TaiLe> dùng mía đi
+[16:32:47] [Async Chat Thread - #20/INFO]: [Not Secure] <`Takiin> skibidi to let
+[16:32:52] [Server thread/INFO]: Takiin issued server command: /fly
+[16:33:07] [Async Chat Thread - #20/INFO]: [Not Secure] <`Quang_Riji> sao để đc thủ thư quên rồi
+[16:33:13] [Async Chat Thread - #21/INFO]: [Not Secure] <`TaiLe> đặt bục sách
+[16:33:28] [Async Chat Thread - #21/INFO]: [Not Secure] <`Quang_Riji> àkk
+[16:34:17] [Server thread/INFO]: hoangktuong issued server command: /warp Lang
+[16:35:01] [Server thread/INFO]: hoangktuong issued server command: /warp dubSpawner
+[16:35:13] [Server thread/INFO]: hoangktuong issued server command: /warp spawnerZom
+[16:35:21] [Server thread/INFO]: hoangktuong issued server command: /warp Lang
+[16:35:32] [Server thread/INFO]: hoangktuong has made the advancement [What a Deal!]
+[16:35:43] [Server thread/WARN]: Takiin moved too quickly! -2.274962995183273,-0.11097621571164495,10.263899351793953
+[16:35:43] [Server thread/WARN]: hoangktuong moved too quickly! -8.295507428027406,0.0,-6.207306410746469
+[16:35:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2972ms or 59 ticks behind
+[16:35:48] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:36:00] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:37:31] [Server thread/INFO]: pandaT issued server command: /tp h
+[16:37:39] [Async Chat Thread - #22/INFO]: [Not Secure] <`TaiLe> mead dau
+[16:37:47] [Server thread/INFO]: pandaT issued server command: /warp dubSpawner
+[16:37:59] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[16:37:59] [Server thread/INFO]: [pandaT: Killed 70 entities]
+[16:39:49] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:39:52] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[16:39:52] [Server thread/INFO]: [pandaT: Killed 27 entities]
+[16:39:58] [Server thread/INFO]: pandaT issued server command: /ec
+[16:40:02] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:40:47] [Server thread/INFO]: pandaT issued server command: /wc
+[16:40:49] [Server thread/INFO]: pandaT issued server command: /ec
+[16:41:02] [Server thread/INFO]: hoangktuong issued server command: /warp dubSpawner
+[16:41:37] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:41:37] [Server thread/INFO]: [hoangktuong: Killed 14 entities]
+[16:41:42] [Server thread/INFO]: hoangktuong issued server command: /warp Lang
+[16:41:51] [Server thread/INFO]: pandaT issued server command: /ec
+[16:42:26] [Async Chat Thread - #24/INFO]: [Not Secure] <`TaiLe> bem nhau ne hoangktuong
+[16:42:39] [Server thread/INFO]: pandaT issued server command: /ec
+[16:42:54] [Server thread/INFO]: pandaT issued server command: /minecraft:kill @e[type=minecraft:item]
+[16:42:54] [Server thread/INFO]: [pandaT: Killed 18 entities]
+[16:42:56] [Server thread/INFO]: Takiin issued server command: /warp farm_go
+[16:43:02] [Server thread/INFO]: Takiin issued server command: /warp farm_go
+[16:43:03] [Server thread/INFO]: pandaT issued server command: /tp h
+[16:43:08] [Server thread/INFO]: Takiin issued server command: /warp dubSpawner
+[16:43:51] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:44:03] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:44:05] [Async Chat Thread - #26/INFO]: [Not Secure] <`TaiLe> bem nhau'
+[16:44:12] [Async Chat Thread - #26/INFO]: [Not Secure] <`TaiLe> r ngu
+[16:44:14] [Async Chat Thread - #26/INFO]: [Not Secure] <`Quang_Riji> ddoiwj xisu
+[16:45:08] [Server thread/INFO]: hoangktuong issued server command: /fly
+[16:45:12] [Async Chat Thread - #26/INFO]: [Not Secure] <`Quang_Riji> chs nef
+[16:45:57] [Async Chat Thread - #26/INFO]: [Not Secure] <`TaiLe> oke
+[16:45:59] [Async Chat Thread - #26/INFO]: [Not Secure] <`TaiLe> len
+[16:46:01] [Async Chat Thread - #26/INFO]: [Not Secure] <`TaiLe> treen
+[16:47:30] [Server thread/INFO]: hoangktuong was burned to a crisp while fighting pandaT
+[16:47:35] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> =)
+[16:47:38] [Async Chat Thread - #28/INFO]: [Not Secure] <`Quang_Riji> chay dau qua
+[16:47:42] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> hej hej
+[16:47:52] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:47:59] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> ./invsee `TaiLe
+[16:48:04] [Server thread/INFO]: pandaT issued server command: /invsee hoangktuong
+[16:48:05] [Thread-13/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[16:48:07] [Async Chat Thread - #28/INFO]: [Not Secure] <`Quang_Riji> knockback t vang nhuw sieu nhan z
+[16:48:12] [Async Chat Thread - #28/INFO]: [Not Secure] <`Quang_Riji> kkkk
+[16:48:27] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> nen ms len san thuong
+[16:48:28] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> =))
+[16:48:32] [Server thread/INFO]: hoangktuong issued server command: /warp dubSpawner
+[16:48:45] [Server thread/INFO]: hoangktuong issued server command: /minecraft:kill @e[type=minecraft:item ]
+[16:48:45] [Server thread/INFO]: [hoangktuong: Killed 11 entities]
+[16:48:49] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> đồ ench max r
+[16:48:55] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> h cày skill thôi
+[16:49:07] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> vu
+[16:49:08] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> vao
+[16:49:10] [Async Chat Thread - #28/INFO]: [Not Secure] <`TaiLe> tui off
+[16:50:03] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[16:50:04] [Server thread/INFO]: pandaT lost connection: Disconnected
+[16:50:04] [Server thread/INFO]: pandaT left the game
+[16:50:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc 
+[16:50:20] [Server thread/INFO]: Command Help: /bc
+[16:50:20] [Server thread/INFO]: Description: Broadcasts a message to the entire server.
+[16:50:20] [Server thread/INFO]: Usage(s);
+[16:50:20] [Server thread/INFO]: /bc <message> - Broadcasts the given message to the entire server
+[16:50:29] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc cbj stop save
+[16:50:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /bc xog ch
+[16:50:54] [Async Chat Thread - #30/INFO]: [Not Secure] <`Quang_Riji> ok
+[16:51:00] [Server thread/INFO]: Stopping the server
+[16:51:00] [Server thread/INFO]: Stopping server
+[16:51:00] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.10
+[16:51:00] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
+[16:51:00] [Server thread/INFO]: [Clumps] Disabling Clumps v5.0
+[16:51:00] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.7
+[16:51:00] [Server thread/INFO]: [Parties] Disabling Parties v3.2.9
+[16:51:00] [Server thread/INFO]: [Parties] Disabling Parties
+[16:51:00] [Server thread/INFO]: [Parties] Parties disabled
+[16:51:00] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v2.3.0
+[16:51:00] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[16:51:00] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[16:51:00] [Server thread/INFO]: [ChatItem] Disabling ChatItem v2.6.2
+[16:51:00] [Server thread/INFO]: [SilkSpawners_v2] Disabling SilkSpawners_v2 v2.3.2
+[16:51:00] [Server thread/INFO]: [SilkSpawners] [INFO]: Stopping version checker
+[16:51:00] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.4.2
+[16:51:00] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[16:51:00] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.4.2
+[16:51:00] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[16:51:00] [Server thread/INFO]: Saving players
+[16:51:00] [Server thread/INFO]: Takiin lost connection: Server closed
+[16:51:00] [Server thread/INFO]: Takiin left the game
+[16:51:00] [Server thread/INFO]: hoangktuong lost connection: Server closed
+[16:51:00] [nioEventLoopGroup-2-2/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[16:51:00] [Server thread/INFO]: hoangktuong left the game
+[16:51:00] [nioEventLoopGroup-2-4/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to minecraft server
+[16:51:00] [Server thread/INFO]: Saving worlds
+[16:51:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Saved 17 block chunks, 279 entity chunks, 0 poi chunks in world 'world' in 0.17s
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[16:51:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 83 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[16:51:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[16:51:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[16:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:51:00] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[16:51:00] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[16:51:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[16:51:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
