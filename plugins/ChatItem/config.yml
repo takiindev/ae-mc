@@ -27,6 +27,7 @@ general:
     - "{i}"
     - "[item]"
     - "{item}"
+    - ".i"
   other-placeholders:
     # Show what is in the head
     helmet:
@@ -38,6 +39,7 @@ general:
       keys:
       - "[head]"
       - "{head}"
+      - ".h"
     # Show the CHESTPLATE not the enderchest or whatever
     chestplate:
       enabled: true
@@ -45,6 +47,7 @@ general:
       keys:
       - "[chest]"
       - "{chest}"
+      - ".ch"
     # Show leggings
     leggings:
       enabled: true
@@ -52,6 +55,7 @@ general:
       keys:
       - "[legs]"
       - "{legs}"
+      - ".l"
     # Show what is their feets
     boots:
       enabled: true
@@ -59,6 +63,7 @@ general:
       keys:
       - "[feet]"
       - "{feet}"
+      - ".f"
     inventory:
       enabled: true
       deny-if-no-item: true
